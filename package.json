@@ -1,0 +1,16 @@
+{
+  "name": "copysignal",
+  "version": "1.0.0",
+  "description": "System for copy signal of the web site investing.com",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "author": "Felipe M. Santos",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^79.0.0",
+    "nodemon": "^2.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
