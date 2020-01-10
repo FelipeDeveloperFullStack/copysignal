@@ -17,6 +17,7 @@ let copy = async () => {
         //console.log('\n')
 
         await driver.get('https://br.investing.com/indices/ibovespa-futures-technical');
+        await driver.sleep(60000)
 
         while (true) {
             await driver.findElement(By.xpath('/html/body/div[5]/section/div[8]/ul/li[1]/a')).click()
